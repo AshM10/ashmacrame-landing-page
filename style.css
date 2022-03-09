@@ -46,4 +46,14 @@ p {
 
 .wall {
   max-width: 400px;
+  border-radius: 6px;
+}
+
+.name {
+  text-align: center;
+  background: var(--secondary-color);
+}
+
+.name h3 {
+  font-style: italic;
 }
