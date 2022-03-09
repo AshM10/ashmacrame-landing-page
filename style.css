@@ -1,6 +1,32 @@
+:root {
+  --heading-font-family: "Libre Baskerville", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --background-color: #f2f2f2;
+  --secondary-color: #e9ffdb;
+  --accent-color: #ffc7e2;
+}
+
 /* font-family: 'Libre Baskerville', serif;
 font-family: 'Poppins', sans-serif; */
 
+body {
+  margin: 15px 10px;
+  background: var(--background-color);
+}
+
 h1 {
-  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-style: italic;
+}
+
+h2 {
+  text-align: center;
+  font-family: var(--default-font-family);
+}
+
+p {
+  text-align: center;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
 }
