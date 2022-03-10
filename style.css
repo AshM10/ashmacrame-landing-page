@@ -51,23 +51,32 @@ p {
 
 .wall {
   max-width: 400px;
+  height: auto;
   border-radius: 6px;
 }
 
 .bouquet {
-  width: 400px;
-  height: auto;
   border-radius: 6px;
-  padding: 0 10px;
+}
+
+.bouquet-description {
+  padding-top: 100px;
 }
 
 .name {
   text-align: center;
   background: var(--secondary-color);
+  padding: 30px;
 }
 
 .wall-wrapper {
   max-width: 950px;
+}
+
+.keychain {
+  text-align: center;
+  background: var(--accent-color);
+  padding: 30px;
 }
 
 @media (max-width: 900px) {
@@ -78,5 +87,9 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
+  }
+
+  .bouquet-description {
+    padding-top: 0;
   }
 }
