@@ -28,7 +28,9 @@ h2 {
 h3 {
   font-family: var(--heading-font-family);
   font-style: italic;
+  text-align: center;
 }
+
 p {
   text-align: center;
   line-height: 1.5;
@@ -85,10 +87,31 @@ p {
   border-radius: 12px;
 }
 
+.shelf {
+  border-radius: 6px;
+  width: 500px;
+}
+
+.lamp {
+  border: 2px solid var(--secondary-color);
+  max-width: 400px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.lamp-description {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 70px;
+  height: 490px;
+}
+
 @media (max-width: 900px) {
   .wall,
   .bouquet,
-  .huge {
+  .huge,
+  .shelf,
+  .lamp {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -97,5 +120,9 @@ p {
 
   .bouquet-description {
     padding-top: 0;
+  }
+
+  .lamp-description {
+    height: auto;
   }
 }
