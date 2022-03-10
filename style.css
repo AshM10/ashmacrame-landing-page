@@ -76,7 +76,13 @@ p {
 .keychain {
   text-align: center;
   background: var(--accent-color);
-  padding: 30px;
+  padding: 30px 80px;
+  margin: 0 20px;
+}
+
+.keychain-border {
+  border: 4px solid var(--secondary-color);
+  border-radius: 12px;
 }
 
 @media (max-width: 900px) {
