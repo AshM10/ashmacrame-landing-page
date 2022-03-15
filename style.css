@@ -142,7 +142,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
+  color: Var(--accent-color);
   background: var(--branding-color);
 }
 
